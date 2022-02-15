@@ -1,4 +1,4 @@
-﻿using newapp.Domin.Servises;
+﻿using Domin.Servises;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -6,8 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using APIServices.Abstractions;
 
-namespace newapp.Controllers
+namespace Domin.Controllers
 {
     [ApiController]
     [Route("[controller]")]

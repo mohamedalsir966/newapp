@@ -6,7 +6,7 @@ using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace newapp.Middlewares
+namespace Domin.Middlewares
 {
     public class ErrorHandlerMiddleware
     {

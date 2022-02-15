@@ -1,5 +1,5 @@
-using newapp.Persistence.Contexts;
-using newapp.Services;
+using DataAccess;
+using APIServices;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace newapp
+namespace Domin
 {
     public class Program
     {

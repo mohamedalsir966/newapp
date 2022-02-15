@@ -1,12 +1,12 @@
-﻿using newapp.Domin;
-using newapp.Resources;
+﻿using Domin;
+using Domin.Resources;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace newapp.Mapping
+namespace Domin.Mapping
 {
     public class ResourceToModelProfile : Profile
     {

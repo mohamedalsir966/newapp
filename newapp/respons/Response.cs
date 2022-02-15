@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace newapp.respons
+namespace Domin.respons
 {
     public class Response 
     {
