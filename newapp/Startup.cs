@@ -1,8 +1,8 @@
-using newapp.Domin;
-using newapp.Domin.Repositories;
-using newapp.Domin.Servises;
-using newapp.Persistence.Reositories;
-using newapp.Services;
+using Domin;
+using Domin.Repositories;
+using Domin.Servises;
+using APIPersistence.Reositories;
+using APIServices;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -18,14 +18,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using FluentValidation.AspNetCore;
-using newapp.Validators;
+using Domin.Validators;
 using FluentValidation;
-using newapp.Persistence.Contexts;
-using newapp.Registrations;
-using newapp.Middlewares;
-using newapp.Cacheding;
+using DataAccess;
+using Domin.Registrations;
+using Domin.Middlewares;
+using Domin.Cacheding;
+using APIServices.Abstractions;
 
-namespace newapp
+namespace Domin
 {
     public class Startup
     {

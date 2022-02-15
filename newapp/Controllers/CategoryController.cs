@@ -1,16 +1,15 @@
-﻿using newapp.Domin;
-using newapp.Domin.Servises;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using newapp.Resources;
-using newapp.Extensions;
+using Domin.Resources;
+using Domin.Extensions;
+using APIServices.Abstractions;
 
-namespace newapp.Controllers
+namespace Domin.Controllers
 {
     [ApiController]
     [Route("[controller]")]

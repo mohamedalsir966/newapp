@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace newapp.Extensions
+namespace Domin.Extensions
 {
     public static class EnumExtensions
     {

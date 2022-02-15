@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace newapp.Registrations
+namespace Domin.Registrations
 {
     public static class SwaggerRegistrations
     {
